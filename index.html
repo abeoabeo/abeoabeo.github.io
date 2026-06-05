@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Portfolio | Lê Thanh Trường</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -26,22 +25,30 @@
     <header id="gioi-thieu" class="pt-32 pb-20 bg-gradient-to-b from-emerald-50 via-white to-slate-50">
         <div class="max-w-4xl mx-auto px-4 text-center">
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold uppercase tracking-wider mb-6">
-                VNU1001.E25212 • Sinh viên năm nhất
+                VNU1001.E25212 • Kỷ nguyên số 2026
             </div>
-            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-4">
-                DIGITAL PORTFOLIO CÁ NHÂN
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-6 leading-tight">
+                DIGITAL PORTFOLIO <br><span class="text-emerald-600">NĂNG LỰC SỐ VÀ AI</span>
             </h1>
-            <p class="text-xl text-slate-600 max-w-2xl mx-auto font-light mb-8">
-                Hệ thống hóa năng lực số và tư duy ứng dụng Trí tuệ nhân tạo trong học tập tại Đại học Quốc gia Hà Nội.
+            <p class="text-lg text-slate-600 max-w-3xl mx-auto font-light mb-10 leading-relaxed">
+                Hồ sơ lưu trữ và hệ thống hóa toàn diện quá trình rèn luyện năng lực làm chủ công nghệ, ứng dụng Trí tuệ nhân tạo (AI) trong học tập và xây dựng đạo đức không gian mạng tại Đại học Quốc gia Hà Nội.
             </p>
             
-            <!-- Thẻ thông tin SV -->
-            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 max-w-md mx-auto text-left grid grid-cols-2 gap-4">
-                <div><span class="text-xs text-slate-400 block uppercase font-bold tracking-wider">Sinh viên</span><strong class="text-slate-800">Lê Thanh Trường</strong></div>
-                <div><span class="text-xs text-slate-400 block uppercase font-bold tracking-wider">Mã sinh viên</span><strong class="text-slate-800">25022037</strong></div>
-                <div class="col-span-2 border-t border-slate-100 pt-3">
-                    <span class="text-xs text-slate-400 block uppercase font-bold tracking-wider">Mục tiêu Portfolio</span>
-                    <p class="text-sm text-slate-600 mt-1 italic">"Minh chứng năng lực làm chủ công nghệ và xây dựng đạo đức nghề nghiệp số."</p>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 max-w-2xl mx-auto text-left grid grid-cols-1 md:grid-cols-2 gap-6 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-emerald-50 rounded-bl-full -z-10"></div>
+                <div>
+                    <span class="text-xs text-slate-400 block uppercase font-bold tracking-wider mb-1">Sinh viên thực hiện</span>
+                    <strong class="text-slate-800 text-lg">Lê Thanh Trường</strong>
+                </div>
+                <div>
+                    <span class="text-xs text-slate-400 block uppercase font-bold tracking-wider mb-1">Mã sinh viên</span>
+                    <strong class="text-slate-800 text-lg font-mono">25022037</strong>
+                </div>
+                <div class="col-span-1 md:col-span-2 border-t border-slate-100 pt-5 mt-2">
+                    <span class="text-xs text-slate-400 block uppercase font-bold tracking-wider mb-2">Tuyên bố mục tiêu (Mission Statement)</span>
+                    <p class="text-sm text-slate-600 italic leading-relaxed text-justify">
+                        "Thông qua chuỗi dự án này, tôi hướng đến việc chuyển đổi từ một người tiêu thụ thông tin thụ động thành một công dân số chủ động, có khả năng khai thác sức mạnh của AI tạo sinh để tối ưu hóa hiệu suất học thuật, đồng thời tuân thủ nghiêm ngặt các tiêu chuẩn về liêm chính và bảo mật dữ liệu."
+                    </p>
                 </div>
             </div>
         </div>
@@ -49,153 +56,231 @@
 
     <!-- Main Content Grid -->
     <main id="du-an" class="max-w-5xl mx-auto px-4 py-12">
-        <h2 class="text-2xl font-bold text-slate-900 mb-8 flex items-center gap-3">
-            <span class="w-8 h-8 rounded-lg bg-emerald-600 flex items-center justify-center text-white text-sm">II</span>
-            Hệ thống hóa kết quả bài tập thành phần
+        <h2 class="text-2xl font-bold text-slate-900 mb-10 flex items-center gap-3 border-b border-slate-200 pb-4">
+            <span class="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center text-white text-lg shadow-sm">
+                <i class="fa-solid fa-layer-group"></i>
+            </span>
+            Hệ thống hóa kết quả học tập thành phần
         </h2>
 
-        <div class="space-y-12">
+        <div class="space-y-16">
             <!-- Bài 1 -->
-            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:shadow-md">
-                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-1">Bài 1 - Mục 1.4</span>
-                <h3 class="text-xl font-bold text-slate-900 mb-4">Thao tác cơ bản với tệp tin và thư mục</h3>
-                <blockquote class="border-l-4 border-slate-200 pl-4 my-4 italic text-slate-600 text-sm">
-                    Trình bày cấu trúc thư mục tối ưu và quy tắc đặt tên tệp đã thiết lập, kèm ảnh chụp minh họa.
-                </blockquote>
-                <p class="text-slate-600 text-sm mb-4 leading-relaxed">
-                    Sử dụng sơ đồ cấu trúc phân cấp logic theo dòng thời gian và thứ tự ưu tiên của học phần. Tận dụng các tiền tố số để cố định vị trí thư mục và áp dụng nghiêm ngặt quy tắc đặt tên đồng bộ: <code class="bg-slate-100 text-rose-600 px-1 py-0.5 rounded text-xs">[MãMôn]_[TênTàiLiệu]_[NgàyThángNăm]</code>.
+            <section class="bg-white p-8 rounded-3xl shadow-[0_2px_20px_rgb(0,0,0,0.04)] border border-slate-100 transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)]">
+                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-2">Bài 1 - Mục 1.4</span>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Tối ưu hóa quản lý không gian lưu trữ số</h3>
+                <p class="text-slate-600 mb-6 leading-relaxed text-justify">
+                    Kỹ năng quản lý tệp tin và thư mục là nền tảng cốt lõi của năng lực số. Việc thiết lập một hệ thống phân cấp logic không chỉ giúp tiết kiệm thời gian tìm kiếm mà còn rèn luyện tư duy hệ thống. Trong bài tập này, tôi đã xây dựng cấu trúc lưu trữ dựa trên phương pháp quản lý thư mục theo tiền tố số học và phân nhánh cây đa tầng, đảm bảo tính bền vững cho khối lượng tài liệu khổng lồ trong suốt 4 năm đại học.
                 </p>
-                <div class="bg-slate-900 text-slate-300 p-4 rounded-xl font-mono text-xs mb-4 overflow-x-auto">
-                    [VNU_25022037_LeThanhTruong]<br>
-                    ├── 01_Nam_Hoc_1_2025_2026<br>
-                    │   └── Hoc_Ky_2<br>
-                    │       └── VNU1001_NhapMonCongNgheSo<br>
-                    │           ├── 01_BaiGiang_Slide<br>
-                    │           └── 02_BaiTap_DuAn<br>
-                    └── 02_Ho_So_Ca_Nhan
-                </div>
-                <!-- Vùng hiển thị ảnh minh họa Bài 1 -->
-                <div class="mt-4 border border-slate-200 rounded-xl p-2 bg-slate-50 flex flex-col items-center">
-                    <img src="image_8cb1fa.png" alt="Cấu trúc thư mục tối ưu" class="rounded-lg max-h-64 object-contain onerror='this.style.display=\"none\"'">
-                    <span class="text-xs text-slate-400 mt-2"><i class="fa-regular fa-image"></i> Minh chứng: image_8cb1fa.png</span>
+                
+                <div class="grid md:grid-cols-2 gap-8 items-start">
+                    <div>
+                        <h4 class="font-semibold text-slate-800 mb-3 text-sm uppercase tracking-wide">Nguyên tắc đặt tên đồng bộ</h4>
+                        <ul class="space-y-3 text-sm text-slate-600 list-disc list-inside bg-slate-50 p-5 rounded-xl border border-slate-100">
+                            <li>Tuyệt đối không sử dụng tiếng Việt có dấu và khoảng trắng để tránh lỗi đường dẫn hệ thống.</li>
+                            <li>Áp dụng công thức tiêu chuẩn: <code class="bg-slate-200 text-rose-600 px-2 py-1 rounded text-xs mx-1 font-mono">[MãMôn]_[TênTàiLiệu]_[NgàyThángNăm]_[PhiênBản]</code>.</li>
+                            <li>Sử dụng số thứ tự <code class="text-slate-800 font-mono text-xs bg-slate-200 px-1 rounded">01_</code>, <code class="text-slate-800 font-mono text-xs bg-slate-200 px-1 rounded">02_</code> để cố định vị trí thư mục quan trọng lên đầu danh sách.</li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-full border-2 border-dashed border-slate-200 rounded-xl p-2 bg-slate-50 flex flex-col items-center">
+                            <img src="image_8cb1fa.png" alt="Cấu trúc thư mục tối ưu" class="rounded-lg max-h-56 object-contain w-full drop-shadow-sm onerror='this.style.display=\"none\"'">
+                        </div>
+                        <span class="text-xs text-slate-400 mt-3 font-medium"><i class="fa-solid fa-folder-tree mr-1"></i> Minh chứng: Cây thư mục (image_8cb1fa.png)</span>
+                    </div>
                 </div>
             </section>
 
             <!-- Bài 2 -->
-            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:shadow-md">
-                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-1">Bài 2 - Mục 2.4</span>
-                <h3 class="text-xl font-bold text-slate-900 mb-4">Tìm kiếm và đánh giá thông tin học thuật</h3>
-                <blockquote class="border-l-4 border-slate-200 pl-4 my-4 italic text-slate-600 text-sm">
-                    Trình bày kết quả tìm kiếm học thuật bằng các toán tử nâng cao và bảng đánh giá nguồn tin đã thực hiện.
-                </blockquote>
-                <p class="text-slate-600 text-sm mb-4">
-                    Ứng dụng chuỗi toán tử nâng cao để truy vấn thông tin chính thống từ miền giáo dục: <code class="bg-slate-100 text-emerald-700 px-1 py-0.5 rounded text-xs">"artificial intelligence" AND "higher education" site:edu.vn filetype:pdf</code>
+            <section class="bg-white p-8 rounded-3xl shadow-[0_2px_20px_rgb(0,0,0,0.04)] border border-slate-100 transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)]">
+                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-2">Bài 2 - Mục 2.4</span>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Truy xuất và thẩm định thông tin học thuật</h3>
+                <p class="text-slate-600 mb-6 leading-relaxed text-justify">
+                    Giữa kỷ nguyên bùng nổ thông tin và sự xuất hiện của các báo cáo do AI tự tạo (AI hallucinations), kỹ năng tìm kiếm nâng cao và thẩm định nguồn tin trở thành rào chắn bảo vệ liêm chính học thuật. Bằng việc phối hợp các toán tử Boolean logic, tôi đã thu hẹp hàng triệu kết quả rác để tiếp cận trực tiếp các báo cáo khoa học uy tín.
                 </p>
-                <div class="overflow-x-auto">
-                    <table class="w-full text-left text-xs border-collapse border border-slate-200">
+                
+                <div class="bg-slate-900 p-5 rounded-xl mb-6 shadow-inner">
+                    <span class="text-slate-400 text-xs uppercase font-bold tracking-wider mb-2 block">Chuỗi truy vấn nâng cao đã áp dụng:</span>
+                    <code class="text-emerald-400 font-mono text-sm block">"artificial intelligence" AND ("higher education" OR "university") site:edu.vn filetype:pdf</code>
+                </div>
+
+                <h4 class="font-semibold text-slate-800 mb-4 flex items-center gap-2">
+                    <i class="fa-solid fa-scale-balanced text-emerald-600"></i> Áp dụng bộ lọc CRAAP Test
+                </h4>
+                <div class="overflow-hidden rounded-xl border border-slate-200 shadow-sm">
+                    <table class="w-full text-left text-sm border-collapse">
                         <thead>
-                            <tr class="bg-slate-50 text-slate-700 font-bold">
-                                <th class="p-3 border border-slate-200">Tiêu chí CRAAP</th>
-                                <th class="p-3 border border-slate-200">Nguồn tin Học thuật (Tạp chí Khoa học VNU)</th>
+                            <tr class="bg-slate-100 text-slate-700">
+                                <th class="p-4 border-b border-slate-200 w-1/3">Tiêu chí đánh giá</th>
+                                <th class="p-4 border-b border-slate-200">Kết quả phân tích tài liệu</th>
                             </tr>
                         </thead>
-                        <tbody class="text-slate-600">
-                            <tr><td class="p-3 border border-slate-200 font-medium">Tính cập nhật (Currency)</td><td class="p-3 border border-slate-200">Xuất bản mới nhất trong năm học hiện tại 2026.</td></tr>
-                            <tr><td class="p-3 border border-slate-200 font-medium">Độ thẩm quyền (Authority)</td><td class="p-3 border border-slate-200">Hội đồng khoa học và các giáo sư chuyên ngành kiểm duyệt nghiêm ngặt.</td></tr>
-                            <tr><td class="p-3 border border-slate-200 font-medium">Mục đích (Purpose)</td><td class="p-3 border border-slate-200">Phục vụ nghiên cứu, giáo dục thuần túy phi thương mại.</td></tr>
+                        <tbody class="text-slate-600 bg-white">
+                            <tr class="hover:bg-slate-50 transition-colors"><td class="p-4 border-b border-slate-100 font-semibold text-slate-800">C - Currency (Tính cập nhật)</td><td class="p-4 border-b border-slate-100 text-justify">Tài liệu được xuất bản trong vòng 2 năm trở lại đây, đảm bảo các số liệu về công nghệ AI không bị lỗi thời.</td></tr>
+                            <tr class="hover:bg-slate-50 transition-colors"><td class="p-4 border-b border-slate-100 font-semibold text-slate-800">R - Relevance (Độ phù hợp)</td><td class="p-4 border-b border-slate-100 text-justify">Nội dung đi sâu vào việc sinh viên ứng dụng AI, phục vụ trực tiếp cho đề tài nghiên cứu của bài tập nhóm.</td></tr>
+                            <tr class="hover:bg-slate-50 transition-colors"><td class="p-4 border-b border-slate-100 font-semibold text-slate-800">A - Authority (Thẩm quyền)</td><td class="p-4 border-b border-slate-100 text-justify">Được đăng tải trên Cổng thông tin Tạp chí Khoa học ĐHQGHN, tác giả là các giảng viên có học hàm.</td></tr>
+                            <tr class="hover:bg-slate-50 transition-colors"><td class="p-4 font-semibold text-slate-800">P - Purpose (Mục đích)</td><td class="p-4 text-justify">Mục tiêu truyền tải tri thức, hoàn toàn vắng bóng yếu tố quảng cáo thương mại hay định hướng chính trị cực đoan.</td></tr>
                         </tbody>
                     </table>
                 </div>
             </section>
 
             <!-- Bài 3 -->
-            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:shadow-md">
-                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-1">Bài 3 - Mục 3.4</span>
-                <h3 class="text-xl font-bold text-slate-900 mb-4">Viết Prompt hiệu quả cho các tác vụ học tập</h3>
-                <blockquote class="border-l-4 border-slate-200 pl-4 my-4 italic text-slate-600 text-sm">
-                    Trình bày sự so sánh giữa Prompt ban đầu và Prompt cải tiến cùng kết quả đầu ra từ AI.
-                </blockquote>
-                <div class="grid md:grid-cols-2 gap-4 text-xs mb-4">
-                    <div class="p-4 bg-rose-50 text-rose-900 rounded-xl border border-rose-100">
-                        <strong class="block mb-1"><i class="fa-solid fa-triangle-exclamation"></i> Prompt Ban Đầu:</strong> 
-                        "Hãy nói về AI tạo sinh"
-                        <span class="block mt-2 text-slate-500 italic">➔ Kết quả AI: Trả về bài viết dài dòng, lan man lý thuyết dập khuôn.</span>
+            <section class="bg-white p-8 rounded-3xl shadow-[0_2px_20px_rgb(0,0,0,0.04)] border border-slate-100 transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)]">
+                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-2">Bài 3 - Mục 3.4</span>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Kỹ thuật "Prompt Engineering" trong học tập</h3>
+                <p class="text-slate-600 mb-6 leading-relaxed text-justify">
+                    Chất lượng đầu ra của Trí tuệ nhân tạo phụ thuộc hoàn toàn vào tư duy đặt câu lệnh (Prompt) của người dùng. Để loại bỏ hiện tượng AI trả lời chung chung, lan man, tôi đã áp dụng cấu trúc Prompt đa chiều bao gồm 4 yếu tố cốt lõi: <strong>Đóng vai (Persona) + Nhiệm vụ cụ thể (Task) + Bối cảnh (Context) + Ràng buộc định dạng (Format)</strong>.
+                </p>
+
+                <div class="space-y-4">
+                    <div class="p-5 bg-rose-50 rounded-xl border border-rose-100 relative overflow-hidden">
+                        <div class="absolute left-0 top-0 bottom-0 w-1 bg-rose-400"></div>
+                        <strong class="text-rose-800 flex items-center gap-2 mb-2"><i class="fa-regular fa-face-frown text-lg"></i> Prompt Thô (Sai lầm phổ biến)</strong> 
+                        <p class="text-slate-700 italic mb-3">"Hãy giải thích về cách dùng AI trong đại học."</p>
+                        <div class="bg-white/60 p-3 rounded text-sm text-slate-600">
+                            <strong>Hậu quả:</strong> Hệ thống sinh ra 4 trang giấy toàn lý thuyết vĩ mô, ngôn từ máy móc, không thể áp dụng vào bài tập thực tế.
+                        </div>
                     </div>
-                    <div class="p-4 bg-emerald-50 text-emerald-900 rounded-xl border border-emerald-100">
-                        <strong class="block mb-1"><i class="fa-solid fa-circle-check"></i> Prompt Cải Tiến Cấu Trúc:</strong> 
-                        "Với tư cách chuyên gia công nghệ giáo dục, hãy tóm tắt ngắn gọn 3 ứng dụng cốt lõi của AI tạo sinh trong việc hỗ trợ sinh viên tự học. Định dạng gạch đầu dòng, ngôn ngữ dễ hiểu, dưới 150 từ."
-                        <span class="block mt-2 text-slate-600 italic">➔ Kết quả AI: Trúng đích, cô đọng, kích hoạt chính xác phân vùng tri thức mong muốn.</span>
+                    
+                    <div class="p-5 bg-emerald-50 rounded-xl border border-emerald-100 relative overflow-hidden shadow-sm">
+                        <div class="absolute left-0 top-0 bottom-0 w-1 bg-emerald-500"></div>
+                        <strong class="text-emerald-800 flex items-center gap-2 mb-2"><i class="fa-regular fa-face-smile-beam text-lg"></i> Prompt Cấu Trúc (Đã tối ưu)</strong> 
+                        <p class="text-slate-800 font-medium italic mb-3">"Đóng vai một chuyên gia giáo dục số. Hãy liệt kê 3 phương pháp ứng dụng ChatGPT để sinh viên năm nhất tự học lập trình hiệu quả. Trình bày dưới dạng danh sách gạch đầu dòng, ngôn ngữ truyền cảm hứng, giới hạn tối đa 200 từ."</p>
+                        <div class="bg-white/80 p-3 rounded text-sm text-slate-700 border border-emerald-100/50">
+                            <strong>Thành quả xuất sắc:</strong> Trúng đích 100%. AI cung cấp chính xác các bước hành động, giới hạn đúng số chữ yêu cầu và format danh sách rất dễ đưa vào slide thuyết trình.
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- Bài 4 -->
-            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:shadow-md">
-                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-1">Bài 4 - Mục 4.4</span>
-                <h3 class="text-xl font-bold text-slate-900 mb-4">Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm</h3>
-                <blockquote class="border-l-4 border-slate-200 pl-4 my-4 italic text-slate-600 text-sm">
-                    Trình bày minh chứng về việc sử dụng công cụ quản lý dự án nhóm và cách thức phối hợp trực tuyến.
-                </blockquote>
-                <p class="text-slate-600 text-sm mb-4 leading-relaxed">
-                    Ứng dụng mô hình Kanban thông qua không gian số hóa trực quan. Phân bổ công việc khoa học theo luồng: <span class="font-medium text-slate-800">Cần làm (To-do) ➔ Đang làm (Doing) ➔ Kiểm duyệt (Review) ➔ Hoàn thành (Done)</span> giúp tối ưu hóa 100% hiệu suất cộng tác từ xa và quản lý deadline chặt chẽ.
+            <section class="bg-white p-8 rounded-3xl shadow-[0_2px_20px_rgb(0,0,0,0.04)] border border-slate-100 transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)]">
+                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-2">Bài 4 - Mục 4.4</span>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Vận hành không gian làm việc nhóm trực tuyến</h3>
+                <p class="text-slate-600 mb-6 leading-relaxed text-justify">
+                    Làm việc nhóm từ xa không chỉ đơn thuần là việc nhắn tin qua lại, mà đòi hỏi một quy trình quản trị chuyên nghiệp. Để giải quyết bài toán "trôi tin nhắn" và "lỡ deadline", nhóm chúng tôi đã đồng bộ hóa toàn bộ tiến trình công việc lên nền tảng quản trị dự án số hóa.
                 </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100 text-center">
+                        <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-3 text-xl"><i class="fa-solid fa-list-check"></i></div>
+                        <h5 class="font-bold text-slate-800 mb-2">Bảng Kanban</h5>
+                        <p class="text-xs text-slate-500 leading-relaxed">Trực quan hóa khối lượng công việc thành các cột To-do, Doing, Done. Mọi thành viên đều biết ai đang làm gì vào thời điểm nào.</p>
+                    </div>
+                    <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100 text-center">
+                        <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center mx-auto mb-3 text-xl"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                        <h5 class="font-bold text-slate-800 mb-2">Đồng bộ Đám mây</h5>
+                        <p class="text-xs text-slate-500 leading-relaxed">Chỉnh sửa tài liệu cùng lúc (Real-time collaboration) trên Google Docs. Loại bỏ hoàn toàn việc phải gửi qua lại các file Word khác nhau.</p>
+                    </div>
+                    <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100 text-center">
+                        <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-3 text-xl"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                        <h5 class="font-bold text-slate-800 mb-2">Lịch sử Phiên bản</h5>
+                        <p class="text-xs text-slate-500 leading-relaxed">Lưu vết mọi thay đổi của từng cá nhân. Dễ dàng khôi phục lại các đoạn nội dung đã xóa nhầm chỉ bằng một cú click chuột.</p>
+                    </div>
+                </div>
             </section>
 
             <!-- Bài 5 -->
-            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:shadow-md">
-                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-1">Bài 5 - Mục 5.4</span>
-                <h3 class="text-xl font-bold text-slate-900 mb-4">Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung</h3>
-                <blockquote class="border-l-4 border-slate-200 pl-4 my-4 italic text-slate-600 text-sm">
-                    Trưng bày sản phẩm nội dung số hoàn thiện (hình ảnh, video hoặc bài viết) được hỗ trợ bởi AI.
-                </blockquote>
-                <p class="text-slate-600 text-sm mb-4 leading-relaxed">
-                    Xây dựng quy trình làm việc số hóa (Digital Workflow): Lập dàn ý bằng mô hình ngôn ngữ lớn, sau đó kết hợp công cụ sinh ảnh nghệ thuật tạo nên ấn phẩm truyền thông độc đáo phục vụ bài viết sáng tạo cá nhân.
+            <section class="bg-white p-8 rounded-3xl shadow-[0_2px_20px_rgb(0,0,0,0.04)] border border-slate-100 transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)]">
+                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-2">Bài 5 - Mục 5.4</span>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Sáng tạo nội dung với sự trợ lực của AI Sinh tạo</h3>
+                <p class="text-slate-600 mb-6 leading-relaxed text-justify">
+                    Dự án này là cơ hội để tôi vượt qua giới hạn của các công cụ đồ họa truyền thống bằng cách đóng vai trò "Đạo diễn hình ảnh AI" (AI Art Director). Bức ảnh minh chứng dưới đây là kết quả của một chu trình <strong>Iterative Prompting</strong> - thử nghiệm và tinh chỉnh liên tục các câu lệnh mô tả chi tiết về phong cách nghệ thuật, ánh sáng, góc máy để AI kết xuất ra một ấn phẩm truyền thông độc bản.
                 </p>
-                <!-- Vùng hiển thị ảnh minh họa Bài 5 -->
-                <div class="mt-4 border border-slate-200 rounded-xl p-2 bg-slate-50 flex flex-col items-center">
-                    <img src="image_8cb1db.png" alt="Sản phẩm AI tạo sinh" class="rounded-lg max-h-64 object-contain onerror='this.style.display=\"none\"'">
-                    <span class="text-xs text-slate-400 mt-2"><i class="fa-regular fa-image"></i> Minh chứng: image_8cb1db.png</span>
+                
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+                    <div class="flex flex-col md:flex-row gap-8 items-center">
+                        <div class="w-full md:w-1/2">
+                            <div class="border border-slate-200 rounded-xl p-2 bg-white drop-shadow-sm flex justify-center">
+                                <img src="image_8cb1db.png" alt="Sản phẩm AI tạo sinh" class="rounded-lg w-full object-cover max-h-72 onerror='this.style.display=\"none\"'">
+                            </div>
+                            <p class="text-center text-xs text-slate-400 mt-3 font-medium"><i class="fa-solid fa-wand-magic-sparkles mr-1"></i> Minh chứng: Sản phẩm AI (image_8cb1db.png)</p>
+                        </div>
+                        <div class="w-full md:w-1/2 space-y-4 text-sm text-slate-600">
+                            <h4 class="font-bold text-slate-800 text-base border-b border-slate-200 pb-2">Quy trình thực hiện số hóa:</h4>
+                            <p><i class="fa-solid fa-circle-check text-emerald-500 mr-2"></i><strong>Lên ý tưởng:</strong> Sử dụng LLM để phác thảo cốt truyện và các yếu tố thị giác đặc trưng cần có.</p>
+                            <p><i class="fa-solid fa-circle-check text-emerald-500 mr-2"></i><strong>Thiết kế Prompt:</strong> Chuyển hóa ý tưởng thành bộ từ khóa chuyên ngành đồ họa (ví dụ: 8k resolution, cinematic lighting, cyberpunk aesthetic).</p>
+                            <p><i class="fa-solid fa-circle-check text-emerald-500 mr-2"></i><strong>Hậu kỳ:</strong> Xuất file chất lượng cao, căn chỉnh lại màu sắc nhẹ nhàng để phù hợp với định dạng hiển thị web.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <!-- Bài 6 -->
-            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition-all hover:shadow-md">
-                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-1">Bài 6 - Mục 6.4</span>
-                <h3 class="text-xl font-bold text-slate-900 mb-4">Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h3>
-                <blockquote class="border-l-4 border-slate-200 pl-4 my-4 italic text-slate-600 text-sm">
-                    Trình bày bộ nguyên tắc cá nhân về sử dụng AI có trách nhiệm dựa trên các nghiên cứu đã thực hiện.
-                </blockquote>
-                <ul class="list-none space-y-3 text-xs text-slate-600 pl-2">
-                    <li class="flex items-start gap-2"><i class="fa-solid fa-shield-halved text-emerald-600 mt-0.5"></i> <span><strong>Minh bạch thông tin:</strong> Chủ động khai báo rõ ràng phân đoạn nội dung có sự trợ lực từ công cụ AI.</span></li>
-                    <li class="flex items-start gap-2"><i class="fa-solid fa-check-double text-emerald-600 mt-0.5"></i> <span><strong>Kiểm định đa tầng:</strong> Luôn đối chiếu và xác thực chéo các thông tin, số liệu do hệ thống AI cung cấp trước khi đưa vào bài làm học thuật.</span></li>
-                    <li class="flex items-start gap-2"><i class="fa-solid fa-user-lock text-emerald-600 mt-0.5"></i> <span><strong>Bảo mật an toàn:</strong> Không tải lên môi trường AI công cộng các dữ liệu cá nhân nhạy cảm hoặc tài liệu nội bộ của nhà trường.</span></li>
-                </ul>
+            <section class="bg-white p-8 rounded-3xl shadow-[0_2px_20px_rgb(0,0,0,0.04)] border border-slate-100 transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)]">
+                <span class="text-xs font-bold text-emerald-600 tracking-widest uppercase block mb-2">Bài 6 - Mục 6.4</span>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Triết lý sử dụng AI có trách nhiệm (Responsible AI)</h3>
+                <p class="text-slate-600 mb-6 leading-relaxed text-justify">
+                    Khi ranh giới giữa sản phẩm trí tuệ con người và thuật toán ngày càng mờ nhạt, việc xây dựng một hệ tiêu chuẩn đạo đức số cá nhân là điều sống còn. AI không thể gánh chịu trách nhiệm pháp lý hay học thuật thay cho sinh viên. Do đó, tôi đã thiết lập "Nguyên tắc 3T" áp dụng xuyên suốt quá trình học tập:
+                </p>
+                
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-gradient-to-br from-slate-50 to-white p-6 rounded-2xl border border-slate-200 shadow-sm relative">
+                        <div class="absolute top-4 right-4 text-slate-200 text-4xl opacity-50"><i class="fa-solid fa-quote-right"></i></div>
+                        <h5 class="font-bold text-emerald-700 text-lg mb-2">1. Trung Thực</h5>
+                        <p class="text-sm text-slate-600 leading-relaxed text-justify">
+                            Minh bạch 100% về mức độ can thiệp của AI. Khai báo rõ ràng các công cụ đã sử dụng, đoạn văn nào do AI hỗ trợ phác thảo ý tưởng, tuyệt đối không sao chép nguyên văn và nhận là của mình (tránh đạo văn).
+                        </p>
+                    </div>
+                    <div class="bg-gradient-to-br from-slate-50 to-white p-6 rounded-2xl border border-slate-200 shadow-sm relative">
+                        <div class="absolute top-4 right-4 text-slate-200 text-4xl opacity-50"><i class="fa-solid fa-microscope"></i></div>
+                        <h5 class="font-bold text-emerald-700 text-lg mb-2">2. Thẩm Định</h5>
+                        <p class="text-sm text-slate-600 leading-relaxed text-justify">
+                            Coi AI như một người trợ lý có thể mắc sai lầm. Mọi số liệu lịch sử, trích dẫn luật học hay công thức toán học do AI cung cấp đều phải được kiểm định chéo bằng giáo trình chính thống hoặc CSDL uy tín.
+                        </p>
+                    </div>
+                    <div class="bg-gradient-to-br from-slate-50 to-white p-6 rounded-2xl border border-slate-200 shadow-sm relative">
+                        <div class="absolute top-4 right-4 text-slate-200 text-4xl opacity-50"><i class="fa-solid fa-shield-virus"></i></div>
+                        <h5 class="font-bold text-emerald-700 text-lg mb-2">3. Thận Trọng</h5>
+                        <p class="text-sm text-slate-600 leading-relaxed text-justify">
+                            Bảo vệ quyền riêng tư cá nhân và dữ liệu tổ chức. Không chia sẻ mã sinh viên, tài liệu nội bộ của nhà trường hay các thông tin cá nhân nhạy cảm vào các khung chat của các mô hình ngôn ngữ công cộng.
+                        </p>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
 
     <!-- Đánh giá tổng kết -->
-    <section id="tong-ket" class="bg-slate-900 text-slate-100 py-16">
-        <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-2xl font-bold mb-6 border-b border-slate-800 pb-4 flex items-center gap-2">
-                <i class="fa-solid fa-graduation-cap text-emerald-500"></i> Trang Tổng Kết Trải Nghiệm
+    <section id="tong-ket" class="bg-slate-900 text-slate-100 py-20 mt-12 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-400 via-teal-500 to-emerald-400"></div>
+        <div class="max-w-5xl mx-auto px-4 relative z-10">
+            <h2 class="text-3xl font-bold mb-10 text-center text-white">
+                <i class="fa-solid fa-flag-checkered text-emerald-400 mr-2"></i> Nhìn lại hành trình chuyển đổi số
             </h2>
-            <div class="grid md:grid-cols-2 gap-8 text-sm leading-relaxed text-slate-400">
-                <div>
-                    <h4 class="text-white font-semibold mb-2">Cảm nhận & Bài học ý nghĩa</h4>
-                    <p>Qua hành trình thực hiện dự án Portfolio này, bản thân tôi đã đúc kết được những kiến thức vô cùng giá trị về công nghệ số. Tôi hiểu rằng AI không phải công cụ làm thay tư duy, mà là đòn bẩy công nghệ tối ưu hiệu suất nếu ta biết dùng đúng cách và có trách nhiệm.</p>
+            
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="bg-slate-800/50 p-8 rounded-2xl border border-slate-700 backdrop-blur-sm hover:bg-slate-800 transition-colors">
+                    <h4 class="text-emerald-400 font-bold text-xl mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-lightbulb"></i> Giá trị cốt lõi nhận được
+                    </h4>
+                    <p class="text-slate-300 text-justify leading-relaxed mb-4">
+                        Dự án Digital Portfolio không chỉ dừng lại ở việc hoàn thành một bài tập môn học, mà thực sự là một cuộc "cách mạng vi mô" trong tư duy học thuật của bản thân tôi. Tôi nhận ra rằng khoảng cách giữa một công dân bình thường và một công dân số xuất sắc không nằm ở việc ai dùng nhiều phần mềm hơn, mà nằm ở tư duy khai thác công cụ.
+                    </p>
+                    <p class="text-slate-300 text-justify leading-relaxed">
+                        Từ việc chật vật với những khái niệm cơ bản, tôi đã làm chủ được chuỗi quy trình khép kín: Tổ chức dữ liệu - Tìm kiếm chuyên sâu - Điều khiển AI - Cộng tác số - Công bố nền tảng web.
+                    </p>
                 </div>
-                <div>
-                    <h4 class="text-white font-semibold mb-2">Tâm đắc & Thách thức</h4>
-                    <p>Điều tôi tâm đắc nhất là đã tự tay cấu hình, quản trị mã nguồn thành công để xuất bản website trên nền tảng GitHub Pages này. Đây là minh chứng rõ ràng nhất cho sự trưởng thành của một sinh viên năm nhất trong kỷ nguyên số hóa.</p>
+                
+                <div class="bg-slate-800/50 p-8 rounded-2xl border border-slate-700 backdrop-blur-sm hover:bg-slate-800 transition-colors">
+                    <h4 class="text-emerald-400 font-bold text-xl mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-rocket"></i> Định hướng tương lai
+                    </h4>
+                    <p class="text-slate-300 text-justify leading-relaxed mb-4">
+                        Điều khiến tôi tự hào nhất là việc tự tay lập trình và cấu hình thành công website trên GitHub Pages. Đây là viên gạch đầu tiên vô cùng vững chắc.
+                    </p>
+                    <p class="text-slate-300 text-justify leading-relaxed">
+                        Trong những học kỳ tới tại Đại học Quốc gia Hà Nội, tôi cam kết sẽ tiếp tục duy trì và cập nhật không gian số này. Các dự án nghiên cứu khoa học, đồ án chuyên ngành sẽ tiếp tục được tích hợp vào đây, biến nền tảng này thành một "Bản CV kỹ thuật số" minh bạch, thuyết phục và thể hiện rõ nét tinh thần học tập suốt đời trong kỷ nguyên AI.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-slate-950 text-slate-600 text-xs py-6 text-center border-t border-slate-900">
-        <p>© 2026 Lê Thanh Trường - MSSV 25022037. Lớp VNU1001.E25212.</p>
+    <footer class="bg-slate-950 text-slate-500 text-sm py-8 text-center border-t border-slate-900/50">
+        <p class="mb-2"><strong>Dự án kết thúc học phần VNU1001 - Nhập môn Công nghệ số và AI</strong></p>
+        <p>© 2026 Lê Thanh Trường - MSSV: 25022037. Thiết kế và phát triển với mã nguồn mở.</p>
     </footer>
 
 </body>
